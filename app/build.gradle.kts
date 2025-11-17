@@ -1,7 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("org.jetbrains.kotlin.kapt")  // ✅ إصلاح kapt
+    id("org.jetbrains.kotlin.kapt")
 }
 
 android {
@@ -18,14 +18,14 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false  // ✅ صحيح
+            isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
         }
         debug {
-            isMinifyEnabled = false  // ✅ إصلاح الخطأ
+            isMinifyEnabled = false
         }
     }
 

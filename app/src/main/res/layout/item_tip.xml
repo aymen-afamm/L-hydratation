@@ -16,8 +16,8 @@
 
         <ImageView
             android:id="@+id/ivTipIcon"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
             android:src="@drawable/ic_water_drop"
             android:contentDescription="@string/tips"
             app:tint="@color/primary"

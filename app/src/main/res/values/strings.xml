@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Name -->
+
     <string name="app_name">Salsabil</string>
 
     <!-- Onboarding -->
@@ -40,9 +41,9 @@
 
     <!-- Dashboard -->
     <string name="dashboard">Dashboard</string>
-    <string name="consumed_today">You\'ve drunk: %s today</string>
-    <string name="daily_goal">Daily Goal: %s</string>
-    <string name="progress_percentage">%d%% of goal achieved</string>
+    <string name="consumed_today" formatted="false">You\'ve drunk: %s today</string>
+    <string name="daily_goal" formatted="false">Daily Goal: %s</string>
+    <string name="progress_percentage" formatted="false">%d%% of goal achieved</string>
     <string name="weekly_consumption">Weekly Consumption</string>
 
     <!-- Goals -->
@@ -50,12 +51,12 @@
     <string name="set_daily_goal">Set Daily Goal</string>
     <string name="enter_goal_ml">Enter goal (ml)</string>
     <string name="set_goal">Set Goal</string>
-    <string name="current_goal_text">Current Goal: %d ml</string>
-    <string name="goal_progress">Achieved: %d ml / %d ml (%d%%)</string>
+    <string name="current_goal_text" formatted="false">Current Goal: %d ml</string>
+    <string name="goal_progress" formatted="false">Achieved: %d ml / %d ml (%d%%)</string>
     <string name="goal_set_success">Goal set successfully!</string>
     <string name="goals_history">Goals History</string>
-    <string name="goal_target">Target: %d ml</string>
-    <string name="goal_achieved_amount">Achieved: %d ml</string>
+    <string name="goal_target" formatted="false">Target: %d ml</string>
+    <string name="goal_achieved_amount" formatted="false">Achieved: %d ml</string>
 
     <!-- Tips -->
     <string name="tips">Hydration Tips</string>
@@ -81,12 +82,12 @@
 
     <!-- Account -->
     <string name="account">My Account</string>
-    <string name="daily_goal_display">Daily Goal: %d ml</string>
+    <string name="daily_goal_display" formatted="false">Daily Goal: %d ml</string>
     <string name="notifications">Notifications</string>
     <string name="reminder_interval">Reminder Interval</string>
-    <string name="interval_hours">Every %d hour(s)</string>
-    <string name="interval_mins">Every %d minute(s)</string>
-    <string name="interval_hours_mins">Every %d hour(s) and %d minute(s)</string>
+    <string name="interval_hours" formatted="false">Every %d hour(s)</string>
+    <string name="interval_mins" formatted="false">Every %d minute(s)</string>
+    <string name="interval_hours_mins" formatted="false">Every %d hour(s) and %d minute(s)</string>
     <string name="logout">Logout</string>
     <string name="logout_title">Logout</string>
     <string name="logout_message">Are you sure you want to logout?</string>
