@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Salsabil</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Suivez Votre Hydratation</string>
+    <string name="onboarding_desc_1">Suivez votre consommation d\'eau quotidienne et restez hydraté tout au long de la journée</string>
+    <string name="onboarding_title_2">Définissez Vos Objectifs</string>
+    <string name="onboarding_desc_2">Définissez des objectifs d\'hydratation personnalisés et suivez vos progrès</string>
+    <string name="onboarding_title_3">Recevez des Rappels</string>
+    <string name="onboarding_desc_3">Recevez des rappels opportuns pour boire de l\'eau et maintenir des habitudes saines</string>
+    <string name="next">Suivant</string>
+    <string name="skip">Passer</string>
+    <string name="get_started">Commencer</string>
+
+    <!-- Authentication -->
+    <string name="login">Connexion</string>
+    <string name="register">S\'inscrire</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirm_password">Confirmer le mot de passe</string>
+    <string name="date_of_birth">Date de naissance</string>
+    <string name="login_success">Connexion réussie!</string>
+    <string name="login_failed">Échec de la connexion</string>
+    <string name="register_success">Inscription réussie!</string>
+    <string name="register_failed">Échec de l\'inscription</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard">Tableau de bord</string>
+    <string name="consumed_today">Vous avez bu: %s aujourd\'hui</string>
+    <string name="daily_goal">Objectif quotidien: %s</string>
+    <string name="progress_percentage">%d%% de l\'objectif atteint</string>
+
+    <!-- Goals -->
+    <string name="goals">Objectifs</string>
+    <string name="set_daily_goal">Définir l\'objectif quotidien</string>
+
+    <!-- Tips -->
+    <string name="tips">Conseils d\'hydratation</string>
+
+    <!-- Account -->
+    <string name="account">Mon compte</string>
+    <string name="logout">Déconnexion</string>
+</resources>

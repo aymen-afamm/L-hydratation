@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom attributes for views -->
+    <declare-styleable name="WaterWaveView">
+        <attr name="waveColor" format="color"/>
+        <attr name="waveHeight" format="dimension"/>
+        <attr name="waveSpeed" format="integer"/>
+    </declare-styleable>
+</resources>

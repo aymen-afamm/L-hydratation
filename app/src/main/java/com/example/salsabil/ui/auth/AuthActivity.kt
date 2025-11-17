@@ -5,6 +5,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.tabs.TabLayout
 import com.example.salsabil.R
+import androidx.fragment.app.Fragment
+
 
 class AuthActivity : AppCompatActivity() {
 
@@ -30,9 +32,10 @@ class AuthActivity : AppCompatActivity() {
         })
     }
 
-    private fun replaceFragment(fragment: LoginFragment) {
+    private fun replaceFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction()
             .replace(R.id.fragmentContainer, fragment)
             .commit()
     }
+
 }

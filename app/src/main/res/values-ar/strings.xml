@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">سلسبيل</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">تتبع الترطيب الخاص بك</string>
+    <string name="onboarding_desc_1">تتبع استهلاكك اليومي من الماء وابق رطبًا طوال اليوم</string>
+    <string name="onboarding_title_2">حدد أهدافك</string>
+    <string name="onboarding_desc_2">حدد أهداف الترطيب الشخصية وتتبع تقدمك</string>
+    <string name="onboarding_title_3">احصل على تذكيرات</string>
+    <string name="onboarding_desc_3">احصل على تذكيرات في الوقت المناسب لشرب الماء والحفاظ على عادات صحية</string>
+    <string name="next">التالي</string>
+    <string name="skip">تخطي</string>
+    <string name="get_started">ابدأ</string>
+
+    <!-- Authentication -->
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">التسجيل</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="date_of_birth">تاريخ الميلاد</string>
+    <string name="login_success">تم تسجيل الدخول بنجاح!</string>
+    <string name="login_failed">فشل تسجيل الدخول</string>
+    <string name="register_success">تم التسجيل بنجاح!</string>
+    <string name="register_failed">فشل التسجيل</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard">لوحة التحكم</string>
+    <string name="consumed_today">لقد شربت: %s اليوم</string>
+    <string name="daily_goal">الهدف اليومي: %s</string>
+    <string name="progress_percentage">تم تحقيق %d%% من الهدف</string>
+
+    <!-- Goals -->
+    <string name="goals">الأهداف</string>
+    <string name="set_daily_goal">تحديد الهدف اليومي</string>
+
+    <!-- Tips -->
+    <string name="tips">نصائح الترطيب</string>
+
+    <!-- Account -->
+    <string name="account">حسابي</string>
+    <string name="logout">تسجيل الخروج</string>
+</resources>

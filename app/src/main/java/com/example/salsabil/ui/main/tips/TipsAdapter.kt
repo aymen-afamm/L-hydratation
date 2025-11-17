@@ -9,11 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.salsabil.R
 
-data class HydrationTip(
-    val title: String,
-    val description: String,
-    val iconRes: Int
-)
+
 
 class TipsAdapter(
     private val tips: List<HydrationTip>
@@ -43,3 +39,8 @@ class TipsAdapter(
         }
     }
 }
+data class HydrationTip(
+    val title: String,
+    val description: String,
+    val iconRes: Int
+)

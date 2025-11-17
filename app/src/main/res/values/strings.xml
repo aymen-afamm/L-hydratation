@@ -1,3 +1,114 @@
 <resources>
+    <!-- App Name -->
     <string name="app_name">Salsabil</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Track Your Hydration</string>
+    <string name="onboarding_desc_1">Keep track of your daily water intake and stay hydrated throughout the day</string>
+    <string name="onboarding_title_2">Set Your Goals</string>
+    <string name="onboarding_desc_2">Set personalized hydration goals and track your progress</string>
+    <string name="onboarding_title_3">Get Reminders</string>
+    <string name="onboarding_desc_3">Receive timely reminders to drink water and maintain healthy habits</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="login_success">Login successful!</string>
+    <string name="login_failed">Login failed</string>
+    <string name="register_success">Registration successful!</string>
+    <string name="register_failed">Registration failed</string>
+
+    <!-- Validation Errors -->
+    <string name="error_username_empty">Username cannot be empty</string>
+    <string name="error_username_short">Username must be at least 3 characters</string>
+    <string name="error_email_empty">Email cannot be empty</string>
+    <string name="error_email_invalid">Please enter a valid email</string>
+    <string name="error_password_empty">Password cannot be empty</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_dob_empty">Please select your date of birth</string>
+    <string name="error_goal_empty">Goal cannot be empty</string>
+    <string name="error_goal_invalid">Please enter a valid goal amount</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard">Dashboard</string>
+    <string name="consumed_today">You\'ve drunk: %s today</string>
+    <string name="daily_goal">Daily Goal: %s</string>
+    <string name="progress_percentage">%d%% of goal achieved</string>
+    <string name="weekly_consumption">Weekly Consumption</string>
+
+    <!-- Goals -->
+    <string name="goals">Goals</string>
+    <string name="set_daily_goal">Set Daily Goal</string>
+    <string name="enter_goal_ml">Enter goal (ml)</string>
+    <string name="set_goal">Set Goal</string>
+    <string name="current_goal_text">Current Goal: %d ml</string>
+    <string name="goal_progress">Achieved: %d ml / %d ml (%d%%)</string>
+    <string name="goal_set_success">Goal set successfully!</string>
+    <string name="goals_history">Goals History</string>
+    <string name="goal_target">Target: %d ml</string>
+    <string name="goal_achieved_amount">Achieved: %d ml</string>
+
+    <!-- Tips -->
+    <string name="tips">Hydration Tips</string>
+    <string name="share_tips">Share Tips</string>
+    <string name="share_via">Share via</string>
+    <string name="share_tips_header">💧 Hydration Tips from Salsabil</string>
+    <string name="share_tips_footer">Stay hydrated with Salsabil!</string>
+
+    <string name="tip_1_title">Start your day with water</string>
+    <string name="tip_1_description">Drink a glass of water first thing in the morning to kickstart your metabolism and rehydrate your body</string>
+
+    <string name="tip_2_title">Drink before meals</string>
+    <string name="tip_2_description">Having a glass of water before each meal helps with digestion and can help control appetite</string>
+
+    <string name="tip_3_title">Keep water accessible</string>
+    <string name="tip_3_description">Always keep a water bottle with you to make drinking water convenient throughout the day</string>
+
+    <string name="tip_4_title">Monitor your urine color</string>
+    <string name="tip_4_description">Light yellow urine indicates good hydration, while dark yellow means you need more water</string>
+
+    <string name="tip_5_title">Increase intake during exercise</string>
+    <string name="tip_5_description">Drink extra water before, during, and after physical activity to replace fluids lost through sweat</string>
+
+    <!-- Account -->
+    <string name="account">My Account</string>
+    <string name="daily_goal_display">Daily Goal: %d ml</string>
+    <string name="notifications">Notifications</string>
+    <string name="reminder_interval">Reminder Interval</string>
+    <string name="interval_hours">Every %d hour(s)</string>
+    <string name="interval_mins">Every %d minute(s)</string>
+    <string name="interval_hours_mins">Every %d hour(s) and %d minute(s)</string>
+    <string name="logout">Logout</string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="notifications_enabled">Notifications enabled</string>
+    <string name="notifications_disabled">Notifications disabled</string>
+    <string name="reminder_interval_updated">Reminder interval updated</string>
+
+    <!-- Add Consumption Dialog -->
+    <string name="add_consumption">Add Water Intake</string>
+    <string name="small_glass">Small Glass (250ml)</string>
+    <string name="medium_glass">Medium Glass (500ml)</string>
+    <string name="large_glass">Large Glass (750ml)</string>
+    <string name="bottle">Bottle (1000ml)</string>
+    <string name="custom_amount">Custom Amount (ml)</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_goals">Goals</string>
+    <string name="nav_tips">Tips</string>
+    <string name="nav_account">Account</string>
 </resources>

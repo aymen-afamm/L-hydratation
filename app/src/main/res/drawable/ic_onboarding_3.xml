@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-</selector>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Bell icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,40 L85,60 L85,110 L115,110 L115,60 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,120 m-25,0 a25,10 0 1,1 50,0 a25,10 0 1,1 -50,0"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M100,125 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0"/>
+</vector>
