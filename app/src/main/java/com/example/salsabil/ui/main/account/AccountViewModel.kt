@@ -10,28 +10,40 @@ class AccountViewModel(
     private val userRepository: UserRepository
 ) : ViewModel() {
 
-    private val _currentUserId = MutableLiveData<Long>()
+    private val _user = MutableLiveData<User?>()
+    val user: LiveData<User?> = _user
 
-    val user: LiveData<User?> = _currentUserId.switchMap { userId ->
-        userRepository.getUserById(userId).asLiveData()
-    }
+    private val _error = MutableLiveData<String>()
+    val error: LiveData<String> = _error
 
-    fun setUserId(userId: Long) {
-        _currentUserId.value = userId
-    }
-
-    fun updateNotificationSettings(enabled: Boolean) {
+    fun loadUser(userId: Long) {
         viewModelScope.launch {
-            _currentUserId.value?.let { userId ->
-                userRepository.updateNotificationSettings(userId, enabled)
+            try {
+                // Utiliser la méthode du repository qui accède au DAO
+                val userData = userRepository.userDao.getUserByIdSync(userId)
+                _user.postValue(userData)
+            } catch (e: Exception) {
+                _error.postValue("Error loading user: ${e.message}")
             }
         }
     }
 
-    fun updateReminderInterval(intervalMinutes: Int) {
+    fun updateNotificationSettings(userId: Long, enabled: Boolean) {
         viewModelScope.launch {
-            _currentUserId.value?.let { userId ->
+            try {
+                userRepository.updateNotificationSettings(userId, enabled)
+            } catch (e: Exception) {
+                _error.postValue("Error updating notifications: ${e.message}")
+            }
+        }
+    }
+
+    fun updateReminderInterval(userId: Long, intervalMinutes: Int) {
+        viewModelScope.launch {
+            try {
                 userRepository.updateReminderInterval(userId, intervalMinutes)
+            } catch (e: Exception) {
+                _error.postValue("Error updating interval: ${e.message}")
             }
         }
     }
