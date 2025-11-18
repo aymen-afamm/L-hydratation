@@ -6,7 +6,7 @@ import com.example.salsabil.data.local.entities.User
 import kotlinx.coroutines.flow.Flow
 import java.security.MessageDigest
 
-class UserRepository(private val userDao: UserDao) {
+class UserRepository(val userDao: UserDao) {
 
     suspend fun registerUser(
         username: String,

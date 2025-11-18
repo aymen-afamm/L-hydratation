@@ -87,7 +87,7 @@
                         android:text="@string/daily_goal_display"
                         android:textSize="16sp"
                         android:textColor="@color/text_dark"
-                        android:drawableStart="@drawable/ic_water_drop"
+
                         android:drawablePadding="8dp"
                         android:drawableTint="@color/primary"/>
 

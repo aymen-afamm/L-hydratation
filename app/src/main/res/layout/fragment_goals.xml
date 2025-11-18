@@ -59,7 +59,7 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/enter_goal_ml"
                         style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
-                        app:startIconDrawable="@drawable/ic_water_drop">
+                        >
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/etGoalAmount"

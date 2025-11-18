@@ -1,116 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="app_name">سلسبيل</string>
-
-    <!-- التعريف بالتطبيق -->
-    <string name="onboarding_title_1">تتبع ترطيبك</string>
-    <string name="onboarding_desc_1">تابع استهلاكك اليومي من الماء وابق رطبًا طوال اليوم</string>
-    <string name="onboarding_title_2">حدد أهدافك</string>
-    <string name="onboarding_desc_2">حدد أهدافًا مخصصة للترطيب وتتبع تقدمك</string>
-    <string name="onboarding_title_3">احصل على تذكيرات</string>
-    <string name="onboarding_desc_3">احصل على تذكيرات في الوقت المناسب لشرب الماء والحفاظ على عادات صحية</string>
-    <string name="next">التالي</string>
-    <string name="skip">تخطي</string>
-    <string name="get_started">ابدأ</string>
-
-    <!-- المصادقة -->
-    <string name="login">تسجيل الدخول</string>
-    <string name="register">التسجيل</string>
-    <string name="username">اسم المستخدم</string>
-    <string name="email">البريد الإلكتروني</string>
-    <string name="password">كلمة المرور</string>
-    <string name="confirm_password">تأكيد كلمة المرور</string>
-    <string name="date_of_birth">تاريخ الميلاد</string>
-    <string name="login_success">تم تسجيل الدخول بنجاح!</string>
-    <string name="login_failed">فشل تسجيل الدخول</string>
-    <string name="register_success">تم التسجيل بنجاح!</string>
-    <string name="register_failed">فشل التسجيل</string>
-
-    <!-- أخطاء التحقق -->
-    <string name="error_username_empty">لا يمكن أن يكون اسم المستخدم فارغًا</string>
-    <string name="error_username_short">يجب أن يحتوي اسم المستخدم على 3 أحرف على الأقل</string>
-    <string name="error_email_empty">لا يمكن أن يكون البريد الإلكتروني فارغًا</string>
-    <string name="error_email_invalid">الرجاء إدخال بريد إلكتروني صحيح</string>
-    <string name="error_password_empty">لا يمكن أن تكون كلمة المرور فارغة</string>
-    <string name="error_password_short">يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل</string>
-    <string name="error_password_mismatch">كلمات المرور غير متطابقة</string>
-    <string name="error_dob_empty">الرجاء تحديد تاريخ الميلاد</string>
-    <string name="error_goal_empty">لا يمكن أن يكون الهدف فارغًا</string>
-    <string name="error_goal_invalid">الرجاء إدخال هدف صالح</string>
-
-    <!-- لوحة التحكم -->
-    <string name="dashboard">لوحة التحكم</string>
-    <string name="consumed_today" formatted="false">لقد شربت: %s اليوم</string>
-    <string name="daily_goal" formatted="false">الهدف اليومي: %s</string>
-    <string name="progress_percentage" formatted="false">%d%% من الهدف المحقق</string>
-    <string name="weekly_consumption">الاستهلاك الأسبوعي</string>
-
-    <!-- الأهداف -->
-    <string name="goals">الأهداف</string>
-    <string name="set_daily_goal">تحديد الهدف اليومي</string>
-    <string name="enter_goal_ml">أدخل الهدف (مل)</string>
-    <string name="set_goal">تحديد الهدف</string>
-    <string name="current_goal_text" formatted="false">الهدف الحالي: %d مل</string>
-    <string name="goal_progress" formatted="false">تم تحقيق: %d مل / %d مل (%d%%)</string>
-    <string name="goal_set_success">تم تحديد الهدف بنجاح!</string>
-    <string name="goals_history">سجل الأهداف</string>
-    <string name="goal_target" formatted="false">الهدف: %d مل</string>
-    <string name="goal_achieved_amount" formatted="false">المحقق: %d مل</string>
-
-    <!-- النصائح -->
-    <string name="tips">نصائح الترطيب</string>
-    <string name="share_tips">مشاركة النصائح</string>
-    <string name="share_via">مشاركة عبر</string>
-    <string name="share_tips_header">💧 نصائح الترطيب من سلسبيل</string>
-    <string name="share_tips_footer">ابق رطبًا مع سلسبيل!</string>
-
-    <string name="tip_1_title">ابدأ يومك بالماء</string>
-    <string name="tip_1_description">اشرب كوبًا من الماء في الصباح لتنشيط جسمك</string>
-
-    <string name="tip_2_title">اشرب قبل الوجبات</string>
-    <string name="tip_2_description">شرب الماء قبل الوجبات يساعد على الهضم والتحكم في الشهية</string>
-
-    <string name="tip_3_title">احتفظ بالماء قريبًا منك</string>
-    <string name="tip_3_description">احمل معك زجاجة ماء دائمًا لتسهيل الشرب طوال اليوم</string>
-
-    <string name="tip_4_title">راقب لون البول</string>
-    <string name="tip_4_description">يشير اللون الأصفر الفاتح إلى ترطيب جيد، والداكن إلى الحاجة لمزيد من الماء</string>
-
-    <string name="tip_5_title">زد شرب الماء أثناء التمرين</string>
-    <string name="tip_5_description">اشرب الماء قبل وأثناء وبعد التمرين لتعويض السوائل المفقودة</string>
-
-    <!-- الحساب -->
-    <string name="account">حسابي</string>
-    <string name="daily_goal_display" formatted="false">الهدف اليومي: %d مل</string>
-    <string name="notifications">الإشعارات</string>
-    <string name="reminder_interval">فترة التذكير</string>
-    <string name="interval_hours" formatted="false">كل %d ساعة</string>
-    <string name="interval_mins" formatted="false">كل %d دقيقة</string>
-    <string name="interval_hours_mins" formatted="false">كل %d ساعة و %d دقيقة</string>
-    <string name="logout">تسجيل الخروج</string>
-    <string name="logout_title">تسجيل الخروج</string>
-    <string name="logout_message">هل أنت متأكد من رغبتك في تسجيل الخروج؟</string>
-    <string name="yes">نعم</string>
-    <string name="no">لا</string>
-    <string name="notifications_enabled">تم تفعيل الإشعارات</string>
-    <string name="notifications_disabled">تم تعطيل الإشعارات</string>
-    <string name="reminder_interval_updated">تم تحديث فترة التذكير بنجاح</string>
-
-    <!-- مربع حوار إضافة الاستهلاك -->
-    <string name="add_consumption">إضافة استهلاك الماء</string>
-    <string name="small_glass">كوب صغير (250 مل)</string>
-    <string name="medium_glass">كوب متوسط (500 مل)</string>
-    <string name="large_glass">كوب كبير (750 مل)</string>
-    <string name="bottle">زجاجة (1000 مل)</string>
-    <string name="custom_amount">كمية مخصصة (مل)</string>
-    <string name="add">إضافة</string>
-    <string name="cancel">إلغاء</string>
-
-    <!-- التنقل السفلي -->
-    <string name="nav_dashboard">لوحة التحكم</string>
-    <string name="nav_goals">الأهداف</string>
-    <string name="nav_tips">النصائح</string>
-    <string name="nav_account">الحساب</string>
-
-</resources>

@@ -3,11 +3,14 @@
 
     <!-- Base Application Theme -->
     <style name="Theme.Salsabil" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Material 3 colors (use your palette or defaults) -->
         <item name="colorPrimary">@color/primary</item>
-        <item name="colorPrimaryVariant">@color/primary_dark</item>
         <item name="colorOnPrimary">@color/white</item>
+
         <item name="colorSecondary">@color/success</item>
         <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar colors -->
         <item name="android:statusBarColor">@color/status_bar</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
